@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Громова Дарья, Коммуникационный дизайнер</title>
+    <style>
+        body {
+            font-family: Helvetica, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #642DFF;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 45px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        section h2 {
+            font-size: 28px;
+            border-bottom: 2px solid #000000;
+            padding-bottom: 10px;
+        }
+        .experience-item, .education-item, .hobby-item {
+            margin-bottom: 20px;
+        }
+        .experience-item h3, .education-item h3 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .experience-item p, .education-item p {
+            margin: 5px 0;
+        }
+        .portfolio-images {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .portfolio-images img {
+            width: 48%;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-info, .hobbies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .contact-info a, .hobbies a {
+            color: #642DFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hobby-item img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Дарья Громова</h1>
+        <p>Коммуникационный дизайнер</p>
+    </header>
+
+    
+    <div class="container">
+        <div class="heading">
+            <span class="img-icon"><img src="img/2024-02-19 12.46.33.jpg" width="250"></span>
+            <p class="title">Привет это я</p>
+          </div>
+        
+        <section id="experience">
+            <h2>Опыт работы</h2>
+            <div class="experience-item">
+                <h3>Иллюстратор — Skillbox</h3>
+                <p><strong>Август 2019 — Декабрь 2021</strong></p>
+                <p>Разработка иллюстраций и графических материалов для веб-сайта, печатных носителей.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Коммуникационный дизайнер — Метр квадратный</h3>
+                <p><strong>Январь 2022 — Настоящее время</strong></p>
+                <p>Разработка графических материалов, презентаций, печатных носителей, сборка лендингов на Tilda.</p>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>Портфолио</h2>
+            <div class="portfolio-images">
+                <img src="img/skillbox.png" width="" alt="Иллюстрации для Skillbox">
+                <img src="img/m2_tech.png" alt="Стилистика тех бренда m2_tech">
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Обучение</h2>
+            <div class="education-item">
+                <h3>Московский Государственный Педагогический Университет</h3>
+                <p><strong>Сентябрь 2014 — Июль 2019</strong></p>
+                <p>Бакалавр, Изобразительное искусство и Дополнительное образование</p>
+            </div>
+            <div class="education-item">
+                <h3>Онлайн курсы и мастер-классы</h3>
+                <ul>
+                    <li><a href="https://bangbangeducation.ru/course/typography-attention-to-text">Типографика и верстка: внимание к тексту</a></li>
+                    <li><a href="https://conf.m2.ru/pages/viewpage.action?pageId=218259977">Типографика</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Контакты</h2>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:ddgromova@yandex.ru">ddgromova@yandex.ru</a></p>
+                <p>Telegram: <a href="https://t.me/ibrahimovic_daniel">@ibrahimovic_daniel</a></p>
+                <p>Behance: <a href="https://www.behance.net/ibrahimovic_daniel">https://www.behance.net/ibrahimovic_daniel</a></p>
+            </div>
+        </section>
+
+        <section id="hobbies">
+            <h2>Хобби и Интересы</h2>
+            <div class="hobbies">
+                <div class="hobby-item">
+                    <h3>Коллекционерую кукол и фигурки, занимаюсь спортом, играю в игры, общаюсь с котом</h3>
+                </div>
+               
+                <div class="hobby-item">
+                    <h3>Кстати это мой кот</h3>
+                    <img src="img/IMG_3917.JPG" height="250" alt="Томас"> <img src="img/IMG_3895.JPG" height="250" alt="Томас"> <img src="img/IMG_4052.jpg" height="250" alt="Томас"> <img src="img/IMG_4101.JPG" height="250" alt="Томас"> 
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
